@@ -1085,3 +1085,22 @@ button:hover {
 .lb-maintenence {
     color: rgb(197, 21, 44);
 }
+
+.new-skap-btn {
+    background-color: rgba(26, 153, 53, 0.7);
+    border-color: rgb(34, 201, 70);
+    animation: rainbow-border 3s linear infinite;
+}
+.new-skap-btn:hover {
+    background-color: rgba(26, 153, 53);
+}
+
+@keyframes rainbow-border {
+    0% { border-color: #ff0000; }
+    16.66% { border-color: #ff8000; }
+    33.33% { border-color: #ffff00; }
+    50% { border-color: #00ff00; }
+    66.66% { border-color: #0080ff; }
+    83.33% { border-color: #8000ff; }
+    100% { border-color: #ff0000; }
+}
